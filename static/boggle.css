@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+section#boggle {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 20px;
+}
+
+table.board {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table.board td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 24px;
+    line-height: 40px;
+    background-color: #e7f0ff;
+    border-radius: 5px;
+}
+
+.score,
+.timer,
+.highscore,
+.nplays {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+form.add-word {
+    margin-top: 20px;
+}
+
+form.add-word input.word {
+    width: 200px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+form.add-word button {
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.add-word button:hover {
+    background-color: #0056b3;
+}
+
+p.msg {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #555;
+}
+
+ul.words {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul.words li {
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+p.error {
+    color: red;
+}
+
+p.ok {
+    color: green;
+}
